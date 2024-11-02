@@ -1,0 +1,63 @@
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+form{
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    width: min(500px, 80%);
+}
+h2{
+    text-align: center;
+    color: chartreuse;
+}
+.register-detail{
+    font-size: 0.9rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0px;
+  margin-bottom: 2rem;
+  
+}
+.register-detail input , .register-detail select {
+    font-size: 1rem;
+    height: 40px;
+    padding: 0px 0.8rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+    border: 0px;
+    border-bottom: 3px solid chartreuse;
+    margin-bottom: 0.8rem;
+  }
+  .register-detail option {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+  }
+  .submit button{
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    background-color: chartreuse;
+    color: black;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+  }
+  .member{
+    padding: 6px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+  }
+  .member a{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: chartreuse;
+    text-decoration: underline;
+  }
